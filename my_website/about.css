@@ -1,0 +1,113 @@
+body{
+    font-family:'Oswald', sans-serif;
+    color:#add8e6;
+    background-color:#000000;
+}
+.banner{
+    font-size:2em;
+    text-align:center;
+    font-family: 'Metropolis';
+    background-image: url(https://csp-2016-lq-17tngo.c9users.io/my_website/images/banner.jpg);
+    background-size:1297px 500px;
+    padding:5px;
+    color:#000000;
+}
+nav,a{
+    font-family:'Oswald', sans-serif;
+    text-align:center;
+    font-size: 1.2em;
+    margin-bottom:20px;
+    background-color: #add8e6;
+    color:#000000;
+    text-decoration:none;
+    padding:7px;
+}
+img{
+    display:block;
+    margin:auto;
+    border-style:solid;
+    border-radius:40px;
+    border-width:30px;
+}
+table{
+    width:400px;
+    margin-bottom:30px;
+}
+table,th,tr,td{
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    font-size:1.1em;
+}
+h2{
+    font-size:1.4em;
+    text-align:center;
+}
+a:link{
+    background-color:#add8e6;
+}
+a:hover{
+    background-color:#3c4858;
+}
+.active{
+    background-color:#FFFFFF;
+}
+@font-face{
+    font-family: Metropolis;
+    src: url(https://csp-2016-lq-17tngo.c9users.io/my_website/font/Metropolis.otf) format("opentype");
+}
+.avatar img{
+    width:300px;
+    height:300px;
+}
+.summary{
+    border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    display: block;
+    text-align:left;
+    width:350px;
+    height:450px;
+    float:left;
+}
+.hobby{
+    border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    display: block;
+    width:350px;
+    height:450px;
+    text-align:left;
+    float:left;
+}
+.song{
+    border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    display: block;
+    width:350px;
+    height:450px;
+    float:left;
+}
+.quotes{
+     border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    display: block;
+    width:350px;
+    height:450px;
+    float:left;
+}
+.final img{
+    width:300px;
+    height:300px;
+}
+    

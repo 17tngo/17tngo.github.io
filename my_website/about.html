@@ -3,14 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>About</title>
+        <link href="about.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lalezar|Oswald|Lobster+Two" rel="stylesheet">
+        <link src="font/Metropolis 1920.otf" rel="stylesheet">
     </head>
     <body>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <h1>Hello, My name is Tommy</h1>
-        <img src="images/tommy ngo.gif">
-        <h2>Grade: Senior</h2>
+        <div class="banner">
+            <h1>Tommy Ngo</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+        <div class="avatar">
+               <img src="images/tommy ngo.gif">
+        </div>
+        <h2>Grade: 12</h2>
         <table>
             <tr><th>Period</th><th>Class</th></tr>
             <tr><td>1</td><td>AP Calculus AB</td></tr>
@@ -20,28 +29,35 @@
             <tr><td>5</td><td>AP Physics C</td></tr>
             <tr><td>6</td><td>Civics P</td></tr>
         </table>
-        <p>Hello, I am currently a senior at LQHS. I aspire to attend UCI <br>
-        and major in computer science in the future. In my free time I <br>
-        enjoy playing video games and biking with my friends. Futhermore, <br>
-        I am also a mechanical keyboard enthusiast so I am quite knowledgable <br>
-        on keyboards.</p>
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Playing Video Games</li>
-            <li>Biking</li>
-            <li>Watching TV</li>
-            <li>Reading</li>
-        </ul>
-        <h2>Most-Listened-To Songs</h2>
-        <ol type="1">
-            <li>"Brain Power" by Noma</li>
-            <li>"Sandstorm" by Darude</li>
-            <li>"Sweatshirt" by Jacob Sartorius</li>
-            <li>"Hit or Miss" by Jacob Sartorius</li>
-        </ol>
-        <h2>Favorite Quote</h2>
-        <p class="quote">"Anyone who has never made a mistake has never tried anything new." -Albert Einstein</p>
-        <img src="images/kappa.jpg">
-        
+        <div class="summary">
+            <h2>About me</h2>
+            <p>Hello, I am currently a senior at LQHS. I aspire to attend UCI and major in computer science in the future. In my free time I enjoy playing video games and biking with my friends. Futhermore, I am also a mechanical keyboard enthusiast so I am quite knowledgable on keyboards.</p>
+        </div>
+        <div class="hobby">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing Video Games</li>
+                <li>Biking</li>
+                <li>Watching TV</li>
+                <li>Reading</li>
+            </ul>
+        </div>
+        <div class="song">
+            <h2>Most-Listened-To Songs</h2>
+            <ol type="1">
+                 <li>"Brain Power" by Noma</li>
+                 <li>"Sandstorm" by Darude</li>
+                 <li>"Sweatshirt" by Jacob Sartorius</li>
+                 <li>"Hit or Miss" by Jacob Sartorius</li>
+            </ol>
+        </div>
+        <div class="quotes">
+            <h2>Favorite Quotes</h2>
+            <p class="quote">"Anyone who has never made a mistake has never tried anything new." -Albert Einstein</p>
+            <p class="quote">"8)" -Imaqtpie</p>
+        </div>
+        <div class="final">
+            <img src="images/kappa.jpg">
+        </div>
     </body>
 </html>
