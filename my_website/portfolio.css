@@ -1,0 +1,35 @@
+body{
+    font-family:'Oswald', sans-serif;
+    color:#add8e6;
+    background-color:#000000;
+}
+.banner{
+    font-size:2em;
+    text-align:center;
+    font-family: 'Righteous';
+    background-image: url(https://csp-2016-lq-17tngo.c9users.io/my_website/images/banner.jpg);
+    background-size:1297px 500px;
+    padding:5px;
+    color:#fff;
+    background-position:-200px;
+    position:static;
+}
+nav,a{
+    font-family:'Oswald', sans-serif;
+    text-align:center;
+    font-size: 1.2em;
+    margin-bottom:20px;
+    background-color: #add8e6;
+    color:#000000;
+    text-decoration:none;
+    padding:7px;
+}
+a:link{
+    background-color:#add8e6;
+}
+a:hover{
+    background-color:#3c4858;
+}
+.active{
+    background-color:#FFFFFF;
+}
