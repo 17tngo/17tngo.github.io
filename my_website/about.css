@@ -2,6 +2,7 @@ body{
     font-family:'Oswald', sans-serif;
     color:#add8e6;
     background-color:#000000;
+    position:relative;
 }
 .banner{
     font-size:2em;
@@ -12,6 +13,7 @@ body{
     padding:5px;
     color:#fff;
     background-position:-200px;
+    position:relative;
 }
 nav,a{
     font-family:'Oswald', sans-serif;
@@ -22,6 +24,7 @@ nav,a{
     color:#000000;
     text-decoration:none;
     padding:7px;
+    position:relative;
 }
 img{
     display:block;
@@ -29,6 +32,7 @@ img{
     border-style:solid;
     border-radius:40px;
     border-width:30px;
+    position:relative;
 }
 table{
     width:400px;
@@ -43,10 +47,12 @@ table,th,tr,td{
     border-color:#add8e6;
     border-collapse: collapse;
     font-size:1.1em;
+    position:relative;
 }
 h2{
     font-size:1.4em;
     text-align:center;
+    position:relative;
 }
 a:link{
     background-color:#add8e6;
@@ -64,6 +70,7 @@ a:hover{
 .avatar img{
     width:300px;
     height:300px;
+    position:relative;
 }
 .summary{
     border-style:solid;
@@ -75,6 +82,7 @@ a:hover{
     width:350px;
     height:450px;
     float:left;
+    position:relative;
 }
 .hobby{
     border-style:solid;
@@ -86,6 +94,7 @@ a:hover{
     height:450px;
     text-align:left;
     float:left;
+    position:relative;
 }
 .song{
     border-style:solid;
@@ -96,6 +105,7 @@ a:hover{
     width:350px;
     height:450px;
     float:left;
+    position:relative;
 }
 .quotes{
      border-style:solid;
@@ -106,9 +116,11 @@ a:hover{
     width:350px;
     height:450px;
     float:left;
+    position:relative;
 }
 .final img{
     width:300px;
     height:300px;
+    position:relative;
 }
     
