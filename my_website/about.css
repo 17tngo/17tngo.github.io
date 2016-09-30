@@ -6,11 +6,12 @@ body{
 .banner{
     font-size:2em;
     text-align:center;
-    font-family: 'Metropolis';
+    font-family: 'Righteous';
     background-image: url(https://csp-2016-lq-17tngo.c9users.io/my_website/images/banner.jpg);
     background-size:1297px 500px;
     padding:5px;
-    color:#000000;
+    color:#fff;
+    background-position:-200px;
 }
 nav,a{
     font-family:'Oswald', sans-serif;

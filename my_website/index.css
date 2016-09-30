@@ -6,7 +6,7 @@ body{
 .banner{
     font-size:2em;
     text-align:center;
-    font-family: 'Metropolis';
+    font-family: 'Righteous';
     background-image: url(https://csp-2016-lq-17tngo.c9users.io/my_website/images/banner.jpg);
     background-size:1297px 500px;
     padding:5px;
@@ -21,10 +21,6 @@ nav,a{
     color:#000000;
     text-decoration:none;
     padding:7px;
-}
-@font-face{
-    font-family: Metropolis;
-    src: url(https://csp-2016-lq-17tngo.c9users.io/my_website/font/Metropolis.otf) format("opentype");
 }
 a:link{
     background-color:#add8e6;
