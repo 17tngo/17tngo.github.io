@@ -36,3 +36,20 @@ a:hover{
 #scratch{
     background-color:transparent;
 }
+#project{
+    background-color:transparent;
+    margin: auto;
+}
+table,th,tr,td{
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    border-style:solid;
+    border-width:2px;
+    border-color:#add8e6;
+    border-collapse: collapse;
+    font-size:1.1em;
+    position:relative;
+    width:400px;
+    margin-bottom:30px;
+}
