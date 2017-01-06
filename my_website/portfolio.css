@@ -40,6 +40,9 @@ a:hover{
     background-color:transparent;
     margin: auto;
 }
+#story{
+    background-color:transparent;
+}
 table,th,tr,td{
     margin-right:auto;
     margin-left:auto;
